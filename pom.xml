@@ -6,9 +6,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.scijava</groupId>
-		<artifactId>pom-scijava</artifactId>
-		<version>1.90</version>
+		<groupId>net.imagej</groupId>
+		<artifactId>pom-imagej</artifactId>
+		<version>8.1.0</version>
 	</parent>
 
 	<groupId>imagejan</groupId>
@@ -18,10 +18,6 @@
 
 	<name>Aggregator project for imagejan's plugins</name>
 	<description></description>
-
-	<properties>
-		<fiji.version>2.0.0-SNAPSHOT</fiji.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
